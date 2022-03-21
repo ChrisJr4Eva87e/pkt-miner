@@ -35,4 +35,4 @@ COPY run.sh .
 
 ENTRYPOINT [ "./run.sh" ]
 
-ENV POOL_HOST_DEFAULT=http://pool.pkteer.com
+ENV POOL="https://stratum.zetahash.com http://pool.pkt.world http://pool.pktpool.io"
